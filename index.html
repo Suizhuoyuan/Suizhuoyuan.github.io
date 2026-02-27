@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Personal Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- 顶部固定导航 -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__brand" href="#top">ZHUOYUAN SUI</a>
+
+      <nav class="topbar__nav">
+        <a class="navlink" href="#about">About</a>
+        <a class="navlink" href="#projects">Projects</a>
+        <a class="navlink" href="#education">Education</a>
+        <a class="navlink" href="#employment">Employment History</a>
+        <a class="navlink" href="#skills">Skills</a>
+        <a class="navlink" href="#contact">Contact me</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 页面主体 -->
+  <main id="top" class="page">
+    <!-- 顶部名片 -->
+    <section class="card">
+      <img class="avatar" src="Portrait_White.jpg" alt="Avatar" />
+
+      <div class="idblock">
+        <h1 class="name">Zhuoyuan Sui &nbsp 隋卓远</h1>
+        <div class="meta">
+          <div><strong> Master of Science student in Electrical Engineering</strong></div>
+          <div>College of Design and Engineering</div>
+          <div>National University of Singapore</div>
+          <div class="links">
+            <a href="CV.pdf" target="_blank" rel="noreferrer">Curriculum Vitae</a>
+            <span class="dot">•</span>
+            <a href="https://www.linkedin.com/in/zhuoyuansui" target="_blank" rel="noreferrer">Linkedin</a>
+            <span class="dot">•</span>
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About 关于自己 -->
+    <section id="about" class="section">
+      <div class="section__head">
+        <h2>About</h2>
+        <div class="rule"></div>
+      </div>
+
+      <p>
+        I am currently pursuing a Master's degree in Electrical Engineering at the National University of Singapore (NUS), specializing in Information Systems. 
+        My core coursework and academic interests include RF, microelectronics technologies, and communication systems theory, combining system-level understanding with hardware-oriented analysis.
+      </p>
+      <p>
+        My hands-on experience spans communication system modeling, analog integrated circuit design and simulation.
+        I am currently working in the MMIC Laboratory at NUS on the engineering project of a wireless power transfer (WPT) system for implantable devices, supervised by Dr. Zhenyu Zhao
+        Additionally, I have an industrial experience in cloud resource pool management and data center operations through internship exposure.
+      </p>
+      <p>
+        I am currently seeking opportunities in hardware development and testing, aiming to apply system-level thinking and cross-domain engineering skills in practical implementation environments.
+      </p>
+    </section>
+
+
+
+    <!-- Project 项目经验 -->
+    <section id="projects" class="section">
+      <div class="section__head">
+        <h2>Projects</h2>
+        <div class="rule"></div>
+      </div>
+
+      <!-- Project 1 -->
+      <div class="proj">
+        <div class="proj__head">
+          <div class="proj__title">
+            Near-field Resonant Wireless Power Transmission System for Implantable Devices
+          </div>
+          <div class="proj__time">Jan 2026 – Present</div>
+        </div>
+        <div class="proj__subhead">
+          <div class="proj__subtitle">
+            <em>National University of Singapore</em>
+          </div>
+          <div class="proj__loc">Singapore</div>
+        </div> 
+        <div class="proj__subtitle">
+          <em>Superviser: Dr. ZHAO, Zhenyu</em>
+        </div>
+        <ul class="proj__bullets">
+          <li>Built Tx/Rx topology and centimeter-scale resonant coil models using HFSS and circuit simulation.</li>
+          <li>Designed and tested PCB prototypes to demonstrate MHz-range wireless power transfer at implant-relevant distances.</li>
+          <li>Evaluated and optimized PTE, alignment sensitivity, and thermal safety under tissue-mimicking environments.</li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="proj">
+        <div class="proj__head">
+          <div class="proj__title">
+            Narrowband Wireless Communication System Simulation Testbed
+          </div>
+          <div class="proj__time">Sept 2024 – Dec 2024</div>
+        </div>
+        <div class="proj__subhead">
+          <div class="proj__subtitle">
+            <em>The Chinese University of Hong Kong, Shenzhen</em>
+          </div>
+          <div class="proj__loc">Shenzhen, China</div>
+        </div>
+        <div class="proj__subtitle">
+          <em>Superviser: Prof. CHEN, Junting</em>
+        </div>
+        <ul class="proj__bullets">
+          <li>Developed a Python-based wideband IoT simulation/test platform for system-level evaluation in realistic scenarios.</li>
+          <li>Implemented baseband modules including convolutional coding, QPSK/16-QAM, pulse shaping, and multipath fading channels.</li>
+          <li>Validated reliability and spectral efficiency and benchmarked results against theoretical models.</li>
+        </ul>
+      </div>
+
+
+      <!-- Project 3 -->
+      <div class="proj">
+        <div class="proj__head">
+          <div class="proj__title">
+            Ultrasound-Based Bio-Adhesive Device for Urine Volume Monitoring
+          </div>
+          <div class="proj__time">June 2024 – Sept 2024</div>
+        </div>
+        <div class="proj__subhead">
+          <div class="proj__subtitle">
+            <em>Shandong University</em>
+          </div>
+          <div class="proj__loc">Jinan, China</div>
+        </div>
+        <div class="proj__subtitle">
+          <em>Superviser: Prof. QIAN, Kai</em>
+        </div>
+        <ul class="proj__bullets">
+          <li>Contributed to the design of a 2 MHz flexible ultrasonic transducer, performing acoustic field simulation and preliminary performance optimization.</li>
+          <li>Conducted literature review and proposed module-level system architecture, covering driver circuits, analog front-end selection, and feasibility analysis.</li>
+        </ul>
+      </div>
+
+    </section>  
+    
+    <!-- Education Experience 教育经历 -->
+    <section id="education" class="section">
+      <div class="section__head">
+        <h2>Education</h2>
+        <div class="rule"></div>
+      </div>
+
+      <!-- Educationon 1 -->
+      <div class="proj">
+        <div class="proj__head">
+          <div class="proj__title">
+            National University of Singapore
+          </div>
+          <div class="proj__time">Aug 2025 – Present</div>
+        </div>
+          <div class="proj__subtitle">
+          <em>Master of Science in Electrical Engineering (Expected in Jan 2027)</em>
+        </div>
+        <ul class="proj__bullets">
+          <li>Specialization: Information Systems</li>
+          <li>Core Curriculum: RF technologies and Communications theory</li>
+        </ul>
+      </div>
+
+
+      <!-- Educationon 2 -->
+      <div class="proj">
+        <div class="proj__head">
+          <div class="proj__title">
+            The Chinese University of Hong Kong, Shenzhen
+          </div>
+          <div class="proj__time">Sept 2021 – May 2025</div>
+        </div>
+          <div class="proj__subtitle">
+          <em>Bachelor of Engineering in Electronic Information Engineering (First Class Honour)</em>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Employment History 工作经历 -->
+    <section id="employment" class="section">
+      <div class="section__head">
+        <h2>Employment History</h2>
+        <div class="rule"></div>
+      </div>
+
+      <!-- Employment -->
+      <div class="proj">
+        <div class="proj__head">
+          <div class="proj__title">
+            Cloud & Data Center Operations Engineer Intern
+          </div>
+          <div class="proj__time">June 2025 – Aug 2025</div>
+        </div>
+        <div class="proj__subhead">
+          <div class="proj__subtitle">
+            <em>China Unicom Limited – Jinan Branch</em>
+          </div>
+          <div class="proj__loc">Jinan, China</div>
+        </div> 
+        <ul class="proj__bullets">
+          <li>Performed front-end-based operations of cloud resource pools and data center infrastructure.</li>
+          <li>Supported data center hardware operations, including temperature control and physical network maintenance.</li>
+        </ul>
+      </div>
+
+    </section>
+
+
+    <!-- Skills 技能 -->
+    <section id="skills" class="section">
+      <div class="section__head">
+        <h2>Skills</h2>
+        <div class="rule"></div>
+      </div>
+
+      <ul class="bullets">
+        <li><strong>Programming:</strong> Proficient in Python, Experienced with MATLAB, C (embedded systems development) and Java </li>
+        <li><strong>EDA Tools:</strong> Proficient in Cadence Virtuoso, Experienced with HFSS and Altium Designer</li>
+        <li><strong>Productivity:</strong> Proficient in Microsoft Office, LateX</li>
+        <li><strong>Languages:</strong> Proficient in professional English communication, including technical writing and oral presentations.</li>
+        <li><strong>Others:</strong> Familiarr with web development, machine learning & deep learning algorithms</li>
+      </ul>
+    </section>
+
+
+    <!-- Contact 联系方式 -->
+    <section id="contact" class="section">
+      <div class="section__head">
+        <h2>Contact</h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="contactgrid">
+        <div>
+          <strong>Email:</strong>
+          <a href="mailto: zhuoyuansui17@u.nus.edu" class="email-link">
+            zhuoyuansui17@u.nus.edu
+          </a>
+        </div>
+        <div><strong>Address:</strong> 1 QUEENSWAY, 149053, Singapore</div>
+        <div><strong>Phone(Overseas):</strong> +65-9279-0067</div>
+        <div><strong>Phone(China):</strong> +86-186-1541-2311</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Athree0417</small>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
