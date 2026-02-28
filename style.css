@@ -72,6 +72,7 @@ body{
   background: rgba(255,255,255,0.10);
 }
 
+/* Highlighting */
 .navlink.is-active{
   color: rgba(255,255,255,0.98);
   background: rgba(255,255,255,0.14);
