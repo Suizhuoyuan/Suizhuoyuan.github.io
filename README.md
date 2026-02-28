@@ -38,5 +38,12 @@ Hosted using GitHub Pages.
 
 MIT License
 
+## Changelog
+
+### 2026-02-28
+- Refactored ScrollSpy logic
+- Added brand click reset behavior
+- Improved navigation state control
+
 ## 其他
 Overall AI-generated. It seems not bad..... 看着还行
