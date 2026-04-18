@@ -45,5 +45,9 @@ MIT License
 - Added brand click reset behavior
 - Improved navigation state control
 
+### 2026-04-19
+- Attach the paper of previous capstone project and add one-line description
+
+
 ## 其他
 Overall AI-generated. It seems not bad..... 看着还行
